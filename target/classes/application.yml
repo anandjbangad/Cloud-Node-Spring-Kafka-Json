@@ -1,0 +1,14 @@
+kafka:
+  bootstrap-servers: localhost:9092
+  topic:
+    json: json.t
+    CLOUD_NODE_REQ: cloudNodeReq
+    CLOUD_NODE_RESP: cloudNodeResp
+    DEVICE_NODE_REQ_1: deviceNodeReq1
+    DEVICE_NODE_REQ_2: deviceNodeReq2
+    DEVICE_NODE_RESP_1: deviceNodeResp1
+    DEVICE_NODE_RESP_2: deviceNodeResp2
+server:
+  port: 8090
+
+
